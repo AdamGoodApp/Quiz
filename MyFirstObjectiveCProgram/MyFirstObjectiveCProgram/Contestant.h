@@ -10,4 +10,9 @@
 
 @interface Contestant : NSObject
 
+@property(nonatomic, strong) NSArray *name;
+@property(nonatomic) int answerOne;
+@property(nonatomic) int answerTwo;
+@property(nonatomic) int answerThree;
+
 @end
