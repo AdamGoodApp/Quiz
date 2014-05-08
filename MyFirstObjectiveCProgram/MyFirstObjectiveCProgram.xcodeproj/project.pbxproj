@@ -11,7 +11,6 @@
 		31B705ED17F473B800CACEA7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B705EC17F473B800CACEA7 /* main.m */; };
 		31B7060017F473B800CACEA7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705FF17F473B800CACEA7 /* XCTest.framework */; };
 		31B7060117F473B800CACEA7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31B705E017F473B800CACEA7 /* Cocoa.framework */; };
-		6693D186191462A500FEB8A1 /* Animal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6693D185191462A500FEB8A1 /* Animal.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +34,6 @@
 		31B705EE17F473B800CACEA7 /* MyFirstObjectiveCProgram-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyFirstObjectiveCProgram-Prefix.pch"; sourceTree = "<group>"; };
 		31B705FE17F473B800CACEA7 /* MyFirstObjectiveCProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstObjectiveCProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B705FF17F473B800CACEA7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6693D184191462A500FEB8A1 /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
-		6693D185191462A500FEB8A1 /* Animal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animal.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +100,6 @@
 			children = (
 				31B705E717F473B800CACEA7 /* Supporting Files */,
 				31B705EC17F473B800CACEA7 /* main.m */,
-				6693D184191462A500FEB8A1 /* Animal.h */,
-				6693D185191462A500FEB8A1 /* Animal.m */,
 			);
 			path = MyFirstObjectiveCProgram;
 			sourceTree = "<group>";
@@ -212,7 +207,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				31B705ED17F473B800CACEA7 /* main.m in Sources */,
-				6693D186191462A500FEB8A1 /* Animal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
